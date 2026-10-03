@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+
+# ML model artifacts (large files — download/generate locally)
+ml/artifacts/*
+!ml/artifacts/eval_comparison.png
+!ml/artifacts/eval_results.json
+!ml/artifacts/lang_detector_eval.json
+!ml/artifacts/qualitative_examples.md
+!ml/artifacts/finetune_summary.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+.Python
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs
+*.log
+logs/
+
+# Audio temp files
+*.tmp.wav
+*.tmp.mp3
